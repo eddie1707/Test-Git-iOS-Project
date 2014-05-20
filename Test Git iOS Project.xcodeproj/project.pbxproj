@@ -21,6 +21,7 @@
 		E88C6785192B6EE000EF2F3E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E88C6767192B6EE000EF2F3E /* UIKit.framework */; };
 		E88C678D192B6EE000EF2F3E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E88C678B192B6EE000EF2F3E /* InfoPlist.strings */; };
 		E88C678F192B6EE000EF2F3E /* Test_Git_iOS_ProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E88C678E192B6EE000EF2F3E /* Test_Git_iOS_ProjectTests.m */; };
+		E88C679A192B716500EF2F3E /* EWTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E88C6799192B716500EF2F3E /* EWTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		E88C678A192B6EE000EF2F3E /* Test Git iOS ProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Test Git iOS ProjectTests-Info.plist"; sourceTree = "<group>"; };
 		E88C678C192B6EE000EF2F3E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E88C678E192B6EE000EF2F3E /* Test_Git_iOS_ProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test_Git_iOS_ProjectTests.m; sourceTree = "<group>"; };
+		E88C6798192B716500EF2F3E /* EWTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWTest.h; sourceTree = "<group>"; };
+		E88C6799192B716500EF2F3E /* EWTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				E88C6775192B6EE000EF2F3E /* Main.storyboard */,
 				E88C6778192B6EE000EF2F3E /* EWViewController.h */,
 				E88C6779192B6EE000EF2F3E /* EWViewController.m */,
+				E88C6798192B716500EF2F3E /* EWTest.h */,
+				E88C6799192B716500EF2F3E /* EWTest.m */,
 				E88C677B192B6EE000EF2F3E /* Images.xcassets */,
 				E88C676A192B6EE000EF2F3E /* Supporting Files */,
 			);
@@ -253,6 +258,7 @@
 				E88C677A192B6EE000EF2F3E /* EWViewController.m in Sources */,
 				E88C6774192B6EE000EF2F3E /* EWAppDelegate.m in Sources */,
 				E88C6770192B6EE000EF2F3E /* main.m in Sources */,
+				E88C679A192B716500EF2F3E /* EWTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
